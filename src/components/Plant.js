@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
-// import { ImageThumb } from '../components/ImageThumb'
 
 export const Plant = ({ plant }) => {
     const { deletePlant } = useContext(GlobalContext);
